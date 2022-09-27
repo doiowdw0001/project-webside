@@ -1,6 +1,8 @@
 let city ="bangkok"; 
 const apikey="056ab4554842105f1b530d5780a94c82";
 
+const form = document.getElementById('form');
+const search =document. getElementById('search');
 function setdata(){
     showWeather();
 }
@@ -38,4 +40,10 @@ function showDataToUI(data){
 function cl (k){
     return k-273;
 }
+function calldataapi(e){
+    e.preventDefault();
+    city=search.value;
+    showWeather();
+}
+form.addEventListener('submit',calldataapi);
 setdata();
