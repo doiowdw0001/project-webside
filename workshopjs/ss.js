@@ -1,5 +1,5 @@
 let city ="bangkok"; 
-const apikey="056ab4554842105f1b530d5780a94c82";
+const apikey="";
 
 function setdata(){
     showWeather();
