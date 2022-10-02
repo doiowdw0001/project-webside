@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    background-color: #f0f2f5;
+}
+.Registerbox{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #ffff;
+    margin: auto;
+    width: 430px;
+    height: 650px;
+}
+.top{
+    margin-left: 180px;
+    color: #1877f2;
+}
+.Textbox{
+    margin-left: 10px
+}
